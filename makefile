@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS += -Wall -g -I. -MMD -MP
 LDFLAGS =
 EXECUTABLE = main
-SRC_FILES = 1.c
+SRC_FILES = main.c
 OBJ_FILES = $(SRC_FILES:.c=.o)
 DEP_FILES = $(SRC_FILES:.c=.d)
 
